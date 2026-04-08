@@ -1,0 +1,12 @@
+interface:
+  display_name: "Start"
+  short_description: "Start a Linear ticket in Codex"
+  default_prompt: "Use $start TICKET-123 to start a Linear issue, begin implementing it in this workspace, and keep Linear updated after commits."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "linear"
+      description: "Linear MCP server"
+      transport: "streamable_http"
+      url: "https://mcp.linear.app/mcp"

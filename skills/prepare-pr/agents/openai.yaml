@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare PR"
+  short_description: "Refresh GitHub PR metadata accurately"
+  default_prompt: "Use $prepare-pr to inspect the current branch diff, handle open PR review comments, and rewrite the GitHub pull request title and body to match the actual scope."
