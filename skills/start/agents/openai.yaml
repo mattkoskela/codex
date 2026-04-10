@@ -1,7 +1,7 @@
 interface:
   display_name: "Start"
-  short_description: "Start a Linear ticket in Codex"
-  default_prompt: "Use $start TICKET-123 to start a Linear issue, begin implementing it in this workspace, and keep Linear updated after commits."
+  short_description: "Start and actively sync a Linear ticket"
+  default_prompt: "Use $start TICKET-123 to start a Linear issue, begin implementing it in this workspace, and keep the ticket updated as plans are approved, edits land, subagents finish, and commits are made."
 
 dependencies:
   tools:
